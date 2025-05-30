@@ -22,6 +22,7 @@
             font-family: "Manrope", 'sans-serif';
         }
     </style>
+
 </head>
 
 <body>
@@ -70,8 +71,8 @@
         </nav>
     </header>
 
-    <main>
-        <!-- Featured Products Section -->
+    <main class="md:w-[80%] mx-auto w-[85%]">
+        <!-- Featured Products Section  -->
         <section class="py-16 md:py-32">
             <!-- title -->
             <div class="text-center">
@@ -103,6 +104,28 @@
                     <img class="mx-auto" src="./images/tea-4.png" alt="">
                     <h1 class="md:text-2xl text-xl font-bold mt-7 mb-3">Green Tea</h1>
                     <p class="md:text-lg text-sm text-[#777777]">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feed back section -->
+        <section class="justify-center items-center mx-auto my-16 pl-48 ">
+            <div class="bg-[#FFF] p-4 rounded-xl mb-6 ">
+                <p class="text-xl font-bold mx-auto pb-4">Please , Drop some comment for our services .We will try our
+                    best. </p>
+                <input id="coupon-input" class="py-2 pl-3 rounded-l-md border-2 border-zinc-200 w-2/3 " type="text"
+                    placeholder="Write here" name="" id="">
+
+                <label for="my_modal_6" class="btn bg-[#87eba4] font-medium">Submit</label>
+            </div>
+
+            <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+            <div class="modal" role="dialog">
+                <div class="modal-box">
+                    <p class="py-4 text-2xl font-bold">Thanks for feedback</p>
+                    <div class="modal-action">
+                        <label for="my_modal_6" class="btn">close</label>
+                    </div>
                 </div>
             </div>
         </section>
